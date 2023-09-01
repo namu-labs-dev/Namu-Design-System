@@ -681,11 +681,7 @@ describe('Menu', () => {
       <Menu mode="inline" inlineCollapsed>
         <Menu.Item key="1" title="bamboo lucky" icon={<PieChartOutlined />}>
           Option 1
-          <img
-            style={{ width: 20 }}
-            alt="test"
-            src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-          />
+          <img style={{ width: 20 }} alt="test" src="https://i.imgur.com/TJ3wOgH.png" />
         </Menu.Item>
       </Menu>,
     );
@@ -825,7 +821,7 @@ describe('Menu', () => {
     const onOpen = jest.fn();
     const onClose = jest.fn();
     const Demo: React.FC = () => {
-      const menuProps = useMemo<MenuProps>(() => ({ onOpen, onClose } as MenuProps), []);
+      const menuProps = useMemo<MenuProps>(() => ({ onOpen, onClose }) as MenuProps, []);
       return (
         <Menu
           {...menuProps}
@@ -860,7 +856,7 @@ describe('Menu', () => {
   it('should keep selectedKeys in state when collapsed to 0px', () => {
     jest.useFakeTimers();
     const Demo: React.FC<MenuProps> = (props) => {
-      const menuProps = useMemo<MenuProps>(() => ({ collapsedWidth: 0 } as MenuProps), []);
+      const menuProps = useMemo<MenuProps>(() => ({ collapsedWidth: 0 }) as MenuProps, []);
       return (
         <Menu
           mode="inline"

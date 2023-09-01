@@ -26,10 +26,10 @@ import AdditionalInfo from './AdditionalInfo';
 
 const locales = {
   cn: {
-    owner: '蚂蚁集团和 Ant Design 开源社区',
+    owner: '蚂蚁集团和 Namu Design 开源社区',
   },
   en: {
-    owner: 'Ant Group and Ant Design Community',
+    owner: 'Ant Group and Namu Design Community',
   },
 };
 
@@ -42,47 +42,47 @@ const useStyle = () => {
 
     return {
       holder: css`
-      background: ${background};
-    `,
+        background: ${background};
+      `,
 
       footer: css`
-      background: ${background};
-      color: ${token.colorTextSecondary};
-      box-shadow: inset 0 106px 36px -116px rgba(0, 0, 0, 0.14);
-
-      * {
-        box-sizing: border-box;
-      }
-
-      h2,
-      a {
-        color: ${token.colorText};
-      }
-
-      .rc-footer-column {
-        margin-bottom: ${isMobile ? 60 : 0}px;
-        :last-child {
-          margin-bottom: ${isMobile ? 20 : 0}px;
-        }
-      }
-
-      .rc-footer-item-icon {
-        top: -1.5px;
-      }
-
-      .rc-footer-container {
-        max-width: 1208px;
-        margin-inline: auto;
-        padding-inline: ${token.marginXXL}px;
-      }
-
-      .rc-footer-bottom {
+        background: ${background};
+        color: ${token.colorTextSecondary};
         box-shadow: inset 0 106px 36px -116px rgba(0, 0, 0, 0.14);
-        .rc-footer-bottom-container {
-          font-size: ${token.fontSize}px;
+
+        * {
+          box-sizing: border-box;
         }
-      }
-    `,
+
+        h2,
+        a {
+          color: ${token.colorText};
+        }
+
+        .rc-footer-column {
+          margin-bottom: ${isMobile ? 60 : 0}px;
+          :last-child {
+            margin-bottom: ${isMobile ? 20 : 0}px;
+          }
+        }
+
+        .rc-footer-item-icon {
+          top: -1.5px;
+        }
+
+        .rc-footer-container {
+          max-width: 1208px;
+          margin-inline: auto;
+          padding-inline: ${token.marginXXL}px;
+        }
+
+        .rc-footer-bottom {
+          box-shadow: inset 0 106px 36px -116px rgba(0, 0, 0, 0.14);
+          .rc-footer-bottom-container {
+            font-size: ${token.fontSize}px;
+          }
+        }
+      `,
     };
   })();
 };
@@ -101,32 +101,32 @@ const Footer: React.FC = () => {
       title: <FormattedMessage id="app.footer.resources" />,
       items: [
         {
-          title: 'Ant Design Charts',
+          title: 'Namu Design Charts',
           url: isZhCN ? 'https://ant-design-charts.antgroup.com' : 'https://charts.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Pro',
+          title: 'Namu Design Pro',
           url: 'https://pro.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Pro Components',
+          title: 'Namu Design Pro Components',
           url: 'https://procomponents.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Mobile',
+          title: 'Namu Design Mobile',
           url: isZhCN ? 'https://ant-design-mobile.antgroup.com/zh' : 'https://mobile.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Mini',
+          title: 'Namu Design Mini',
           url: isZhCN ? 'https://ant-design-mini.antgroup.com/' : 'https://mini.ant.design',
           openExternal: true,
         },
         {
-          title: 'Ant Design Landing',
+          title: 'Namu Design Landing',
           description: <FormattedMessage id="app.footer.landing" />,
           url: 'https://landing.ant.design',
           openExternal: true,

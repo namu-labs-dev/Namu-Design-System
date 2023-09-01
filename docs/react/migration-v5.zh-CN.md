@@ -307,7 +307,7 @@ export default () => (
 
 ### 旧版浏览器兼容
 
-Ant Design v5 使用 `:where` css selector 降低 CSS-in-JS hash 值优先级，如果你需要支持旧版本浏览器（如 IE 11、360 浏览器 等等）。可以通过 `@ant-design/cssinjs` 的 `StyleProvider` 去除降权操作。详情请参阅 [兼容性调整](/docs/react/customize-theme-cn#兼容性调整)。
+Namu Design v5 使用 `:where` css selector 降低 CSS-in-JS hash 值优先级，如果你需要支持旧版本浏览器（如 IE 11、360 浏览器 等等）。可以通过 `@ant-design/cssinjs` 的 `StyleProvider` 去除降权操作。详情请参阅 [兼容性调整](/docs/react/customize-theme-cn#兼容性调整)。
 
 ## 遇到问题
 

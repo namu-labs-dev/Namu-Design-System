@@ -8,7 +8,7 @@ author: zombieJ
 
 ## 动态样式去哪儿了？
 
-如果你研究过 Ant Design 的官网，你会发现 Ant Design 的组件并没有动态插入 `<style />` 来控制样式，而是通过 CSS 文件来控制样式：
+如果你研究过 Namu Design 的官网，你会发现 Namu Design 的组件并没有动态插入 `<style />` 来控制样式，而是通过 CSS 文件来控制样式：
 
 - <img width="376" alt="button" src="https://github.com/ant-design/ant-design/assets/5378891/82fc5e7a-8d68-4c37-b892-e75097f80ff8" />
 - <img width="480" alt="style" src="https://github.com/ant-design/ant-design/assets/5378891/ab31820e-6602-4421-9101-50cb70738058" />
@@ -34,7 +34,7 @@ author: zombieJ
 
 ## 组件级 CSS-in-JS
 
-在 [组件级别的 CSS-in-JS](/docs/blog/css-in-js) 一文中，我们提过。Ant Design 的 Cache 机制并不需要计算出完整的样式。对于组件库而言，只要通过 Token 和 ComponentName 就可以确定生成样式一致性，所以我们可以提前计算出 hash 值：
+在 [组件级别的 CSS-in-JS](/docs/blog/css-in-js) 一文中，我们提过。Namu Design 的 Cache 机制并不需要计算出完整的样式。对于组件库而言，只要通过 Token 和 ComponentName 就可以确定生成样式一致性，所以我们可以提前计算出 hash 值：
 
 ![Component CSS-in-JS](https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*yZMNSYVtxnAAAAAAAAAAAAAADrJ8AQ/original)
 
@@ -119,4 +119,4 @@ const { content } = getComputedStyle(measure);
 
 ## 总结
 
-CSS-in-JS 因为运行时的性能损耗而被人诟病。而在 Ant Design 中，如果你的应用使用了 SSR，那么在客户端侧就可以直接跳过运行时生成样式的阶段从而提升性能。当然，我们会继续跟进 CSS-in-JS 的发展，为你带来更好的体验。
+CSS-in-JS 因为运行时的性能损耗而被人诟病。而在 Namu Design 中，如果你的应用使用了 SSR，那么在客户端侧就可以直接跳过运行时生成样式的阶段从而提升性能。当然，我们会继续跟进 CSS-in-JS 的发展，为你带来更好的体验。

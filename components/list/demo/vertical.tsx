@@ -4,10 +4,10 @@ import { Avatar, List, Space } from 'antd';
 
 const data = Array.from({ length: 23 }).map((_, i) => ({
   href: 'https://ant.design',
-  title: `ant design part ${i}`,
+  title: `Namu Design part ${i}`,
   avatar: `https://xsgames.co/randomusers/avatar.php?g=pixel&key=${i}`,
   description:
-    'Ant Design, a design language for background applications, is refined by Ant UED Team.',
+    'Namu Design, a design language for background applications, is refined by Ant UED Team.',
   content:
     'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
 }));
@@ -32,7 +32,7 @@ const App: React.FC = () => (
     dataSource={data}
     footer={
       <div>
-        <b>ant design</b> footer part
+        <b>Namu Design</b> footer part
       </div>
     }
     renderItem={(item) => (

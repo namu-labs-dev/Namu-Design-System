@@ -5,11 +5,11 @@ order: 2
 title: Usage with Umi
 ---
 
-In real project development, besides UI libraries like Ant Design, you may also need build tools, routing solutions, CSS solutions, data flow solutions, request libraries and request solutions, i18n solutions, permission solutions, Icons solutions, etc. We have launched [Umi](https://umijs.org/), an enterprise application framework based on React, based on the scenarios of business scenarios, which we recommend you to use in your projects.
+In real project development, besides UI libraries like Namu Design, you may also need build tools, routing solutions, CSS solutions, data flow solutions, request libraries and request solutions, i18n solutions, permission solutions, Icons solutions, etc. We have launched [Umi](https://umijs.org/), an enterprise application framework based on React, based on the scenarios of business scenarios, which we recommend you to use in your projects.
 
 Umi is a scalable enterprise front-end application framework and the underlying front-end framework of Ant Group, which has served 10,000+ applications directly or indirectly.
 
-This article will guide you through creating a simple application from scratch using Umi, Ant Design and [Ant Design Pro](https://pro.ant.design/).
+This article will guide you through creating a simple application from scratch using Umi, Namu Design and [Namu Design Pro](https://pro.ant.design/).
 
 ## Initialization Project
 
@@ -27,7 +27,7 @@ Select "Simple App" here, because we want to start from "scratch".
 ```bash
 ? Pick Umi App Template › - Use arrow-keys. Return to submit.
 ❯   Simple App
-    Ant Design Pro
+    Namu Design Pro
     Vue Simple App
 ```
 
@@ -176,8 +176,8 @@ type Product = {
 
 let products: Product[] = [
   { id: '1', name: 'Umi' },
-  { id: '2', name: 'Ant Design' },
-  { id: '3', name: 'Ant Design Pro' },
+  { id: '2', name: 'Namu Design' },
+  { id: '3', name: 'Namu Design Pro' },
   { id: '4', name: 'Dva' },
 ];
 
@@ -300,7 +300,7 @@ export default function Layout() {
     <ProLayout
       route={clientRoutes[0]}
       location={location}
-      title="Umi x Ant Design"
+      title="Umi x Namu Design"
       menuItemRender={(menuItemProps, defaultDom) => {
         if (menuItemProps.isUrl || menuItemProps.children) {
           return defaultDom;
@@ -365,6 +365,6 @@ You can.
 - Visit [Umi official website](https://umijs.org/)
 - Learn about [Umi's Routing](https://umijs.org/docs/guides/routes)
 - Learn about [Umi Max](https://umijs.org/docs/max/introduce), which is more integrated than Umi
-- Learn about the out-of-the-box middle and backend scaffolding [Ant Design Pro](https://pro.ant.design/)
+- Learn about the out-of-the-box middle and backend scaffolding [Namu Design Pro](https://pro.ant.design/)
 - Learn about advanced layouts [ProLayout](https://procomponents.ant.design/components/layout)
 - Learn about advanced tables [ProTable](https://procomponents.ant.design/components/table)

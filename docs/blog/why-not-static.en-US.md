@@ -86,7 +86,7 @@ const Demo = () => {
   const [messageApi, contextHolder] = message.useMessage();
 
   const info = () => {
-    messageApi.info('Hello, Ant Design!');
+    messageApi.info('Hello, Namu Design!');
   };
 
   return (

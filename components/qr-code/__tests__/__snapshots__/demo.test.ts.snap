@@ -4,7 +4,7 @@ exports[`renders components/qr-code/demo/Popover.tsx correctly 1`] = `
 <img
   alt="icon"
   height="100"
-  src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+  src="https://i.imgur.com/TJ3wOgH.png"
   width="100"
 />
 `;
@@ -163,7 +163,7 @@ Array [
       width="134"
     />
     <img
-      src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+      src="https://i.imgur.com/TJ3wOgH.png"
       style="display:none"
     />
   </div>,
@@ -286,7 +286,7 @@ exports[`renders components/qr-code/demo/icon.tsx correctly 1`] = `
     width="134"
   />
   <img
-    src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+    src="https://i.imgur.com/TJ3wOgH.png"
     style="display:none"
   />
 </div>

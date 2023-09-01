@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="200" src="https://i.imgur.com/TJ3wOgH.png">
   </a>
 </p>
 
-<h1 align="center">Ant Design</h1>
+<h1 align="center">Namu Design</h1>
 
 <div align="center">
 
@@ -102,15 +102,15 @@ const App = () => (
 
 - [Домашня сторінка](https://ant.design/)
 - [Компоненти](https://ant.design/components/overview)
-- [Ant Design Pro](http://pro.ant.design/)
+- [Namu Design Pro](http://pro.ant.design/)
 - [Change Log](CHANGELOG.en-US.md)
 - [rc-components](http://react-component.github.io/)
 - [Mobile UI](http://mobile.ant.design)
 - [Mini Program UI](http://mini.ant.design)
-- [Ant Design Pro Components](https://procomponents.ant.design)
-- [Ant Design Charts](https://charts.ant.design)
-- [Ant Design Icons](https://github.com/ant-design/ant-design-icons)
-- [Ant Design Colors](https://github.com/ant-design/ant-design-colors)
+- [Namu Design Pro Components](https://procomponents.ant.design)
+- [Namu Design Charts](https://charts.ant.design)
+- [Namu Design Icons](https://github.com/ant-design/ant-design-icons)
+- [Namu Design Colors](https://github.com/ant-design/ant-design-colors)
 - [Лендінги](https://landing.ant.design)
 - [Motion](https://motion.ant.design)
 - [Scaffold Market](http://scaffold.ant.design)

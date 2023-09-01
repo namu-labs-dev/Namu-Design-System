@@ -7111,7 +7111,7 @@ Array [
                 class="ant-input"
                 id="global_state_username"
                 type="text"
-                value="Ant Design"
+                value="Namu Design"
               />
             </div>
           </div>
@@ -7129,7 +7129,7 @@ Array [
     "name": [
       "username"
     ],
-    "value": "Ant Design"
+    "value": "Namu Design"
   }
 ]
     </pre>

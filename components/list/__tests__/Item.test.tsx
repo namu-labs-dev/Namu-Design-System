@@ -8,10 +8,10 @@ describe('List Item Layout', () => {
     {
       key: 1,
       href: 'https://ant.design',
-      title: 'ant design',
+      title: 'Namu Design',
       avatar: 'https://xsgames.co/randomusers/avatar.php?g=pixel',
       description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team.',
+        'Namu Design, a design language for background applications, is refined by Ant UED Team.',
       content:
         'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
       extra: 'extra',
@@ -141,15 +141,15 @@ describe('List Item Layout', () => {
     const dataWithId = [
       {
         id: 1,
-        title: `ant design`,
+        title: `Namu Design`,
       },
       {
         id: 2,
-        title: `ant design`,
+        title: `Namu Design`,
       },
       {
         id: 3,
-        title: `ant design`,
+        title: `Namu Design`,
       },
     ];
     const { container: wrapper } = render(
@@ -166,15 +166,15 @@ describe('List Item Layout', () => {
     const dataWithId = [
       {
         id: 1,
-        title: `ant design`,
+        title: `Namu Design`,
       },
       {
         id: 2,
-        title: `ant design`,
+        title: `Namu Design`,
       },
       {
         id: 3,
-        title: `ant design`,
+        title: `Namu Design`,
       },
     ];
     const { container: wrapper } = render(
@@ -216,7 +216,7 @@ describe('List Item Layout', () => {
     };
     const getDom = (id = 1) => (
       <List
-        dataSource={[{ id, title: `ant design` }]}
+        dataSource={[{ id, title: `Namu Design` }]}
         rowKey={(item) => item.id}
         renderItem={(item) => (
           <List.Item>
@@ -234,7 +234,7 @@ describe('List Item Layout', () => {
   it('List.Item.Meta title should have no default margin', () => {
     const { container } = render(
       <List
-        dataSource={[{ id: 1, title: `ant design` }]}
+        dataSource={[{ id: 1, title: `Namu Design` }]}
         renderItem={(item) => (
           <List.Item>
             <List.Item.Meta title={item.title} />

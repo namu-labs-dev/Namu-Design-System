@@ -24,7 +24,7 @@ export default () => (
 
 ## 定制水波纹
 
-Ant Design 中，一个比较有特色的设计交互就是在一些组件上的点击波纹效果。你可以在各个地方看到它们：
+Namu Design 中，一个比较有特色的设计交互就是在一些组件上的点击波纹效果。你可以在各个地方看到它们：
 
 - <img alt="Button" height="110" src="https://github.com/react-component/picker/assets/5378891/60aaad50-cfd5-4c1f-b91f-0be217877f3f" />
 - <img alt="Checkbox" height="70" src="https://github.com/react-component/picker/assets/5378891/f7d64d64-29db-4c9c-a0d6-de8b36a31d48" />

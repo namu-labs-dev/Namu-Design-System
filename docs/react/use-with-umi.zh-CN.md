@@ -5,11 +5,11 @@ order: 2
 title: 在 Umi 中使用
 ---
 
-在真实项目开发中，除了 Ant Design 这样的 UI 库，你可能会还会需要构建工具、路由方案、CSS 方案、数据流方案、请求库和请求方案、国际化方案、权限方案、Icons 方案，等等，才能完成一个完整的项目。我们基于业务场景的场景，推出了基于 React 的企业级应用框架 [Umi](https://umijs.org/)，推荐你在项目中使用。
+在真实项目开发中，除了 Namu Design 这样的 UI 库，你可能会还会需要构建工具、路由方案、CSS 方案、数据流方案、请求库和请求方案、国际化方案、权限方案、Icons 方案，等等，才能完成一个完整的项目。我们基于业务场景的场景，推出了基于 React 的企业级应用框架 [Umi](https://umijs.org/)，推荐你在项目中使用。
 
 Umi，中文发音为「乌米」，是可扩展的企业级前端应用框架，也是蚂蚁集团的底层前端框架，已直接或间接地服务了 10000+ 应用。Umi 以路由为基础的，同时支持配置式路由和约定式路由，保证路由的功能完备，并以此进行功能扩展。然后配以生命周期完善的插件体系，覆盖从源码到构建产物的每个生命周期，支持各种功能扩展和业务需求。
 
-本文会引导你使用 Umi、Ant Design 和 [Ant Design Pro](https://pro.ant.design/) 从 0 开始创建一个简单应用。
+本文会引导你使用 Umi、Namu Design 和 [Namu Design Pro](https://pro.ant.design/) 从 0 开始创建一个简单应用。
 
 ## 初始化项目
 
@@ -27,7 +27,7 @@ $ pnpm create umi
 ```bash
 ? Pick Umi App Template › - Use arrow-keys. Return to submit.
 ❯   Simple App
-    Ant Design Pro
+    Namu Design Pro
     Vue Simple App
 ```
 
@@ -176,8 +176,8 @@ type Product = {
 
 let products: Product[] = [
   { id: '1', name: 'Umi' },
-  { id: '2', name: 'Ant Design' },
-  { id: '3', name: 'Ant Design Pro' },
+  { id: '2', name: 'Namu Design' },
+  { id: '3', name: 'Namu Design Pro' },
   { id: '4', name: 'Dva' },
 ];
 
@@ -300,7 +300,7 @@ export default function Layout() {
     <ProLayout
       route={clientRoutes[0]}
       location={location}
-      title="Umi x Ant Design"
+      title="Umi x Namu Design"
       menuItemRender={(menuItemProps, defaultDom) => {
         if (menuItemProps.isUrl || menuItemProps.children) {
           return defaultDom;
@@ -365,6 +365,6 @@ event - Build index.html
 - 访问  [Umi 官网](https://umijs.org/)
 - 了解  [Umi 的路由](https://umijs.org/docs/guides/routes)
 - 了解比 Umi 集成度更高的  [Umi Max](https://umijs.org/docs/max/introduce)
-- 了解开箱即用的中后台脚手架  [Ant Design Pro](https://pro.ant.design/)
+- 了解开箱即用的中后台脚手架  [Namu Design Pro](https://pro.ant.design/)
 - 了解高级布局  [ProLayout](https://procomponents.ant.design/components/layout)
 - 了解高级表格  [ProTable](https://procomponents.ant.design/components/table)

@@ -53,7 +53,7 @@ const TokenChecker = () => {
 const locales = {
   cn: {
     themeTitle: '定制主题，随心所欲',
-    themeDesc: 'Ant Design 5.0 开放更多样式算法，让你定制主题更简单',
+    themeDesc: 'Namu Design 5.0 开放更多样式算法，让你定制主题更简单',
 
     customizeTheme: '定制主题',
     myTheme: '我的主题',
@@ -70,7 +70,7 @@ const locales = {
   },
   en: {
     themeTitle: 'Flexible theme customization',
-    themeDesc: 'Ant Design 5.0 enable extendable algorithm, make custom theme easier',
+    themeDesc: 'Namu Design 5.0 enable extendable algorithm, make custom theme easier',
 
     customizeTheme: 'Customize Theme',
     myTheme: 'My Theme',
@@ -435,7 +435,7 @@ export default function Theme() {
             <div className={styles.logo}>
               <div className={styles.logoImg}>
                 <img
-                  src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+                  src="https://i.imgur.com/TJ3wOgH.png"
                   style={{
                     filter:
                       closestColor === DEFAULT_COLOR
@@ -446,7 +446,7 @@ export default function Theme() {
                   alt=""
                 />
               </div>
-              <h1>Ant Design 5.0</h1>
+              <h1>Namu Design 5.0</h1>
             </div>
 
             <Space className={styles.menu} size="middle">

@@ -1,12 +1,12 @@
 ---
 order: 0
-title: Ant Design of React
+title: Namu Design of React
 ---
 
-`antd` 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+`antd` 是基于 Namu Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
 
 <div class="pic-plus">
-  <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"/>
+  <img width="150" src="https://i.imgur.com/TJ3wOgH.png"/>
   <span>+</span>
   <img width="160" src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg"/>
 </div>
@@ -88,15 +88,15 @@ export default App;
 - [首页](/index-cn)
 - [组件库](/components/overview-cn)
 - [国内镜像](https://github.com/ant-design/ant-design/issues/25661)
-- [Ant Design Pro](https://pro.ant.design/)
-- [Ant Design Pro Components](https://procomponents.ant.design/)
-- [Ant Design Charts](https://charts.ant.design)
+- [Namu Design Pro](https://pro.ant.design/)
+- [Namu Design Pro Components](https://procomponents.ant.design/)
+- [Namu Design Charts](https://charts.ant.design)
 - [更新日志](/changelog)
 - [React 底层基础组件](https://react-component.github.io/)
 - [移动端组件库](https://mobile.ant.design)
 - [小程序组件库](https://mini.ant.design)
-- [Ant Design 图标](https://github.com/ant-design/ant-design-icons)
-- [Ant Design 色彩](https://github.com/ant-design/ant-design-colors)
+- [Namu Design 图标](https://github.com/ant-design/ant-design-icons)
+- [Namu Design 色彩](https://github.com/ant-design/ant-design-colors)
 - [首页模板集](https://landing.ant.design)
 - [动效](https://motion.ant.design)
 - [脚手架市场](https://scaffold.ant.design)
@@ -105,7 +105,7 @@ export default App;
 - [版本发布规则](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
 - [常见问题](/docs/react/faq)
 - [CodeSandbox 模板](https://u.ant.design/codesandbox-repro) for bug reports
-- [Awesome Ant Design](https://github.com/websemantics/awesome-ant-design)
+- [Awesome Namu Design](https://github.com/websemantics/awesome-ant-design)
 - [定制主题](/docs/react/customize-theme)
 - [成为社区协作成员](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
 
@@ -120,7 +120,7 @@ export default App;
 - [滴滴](https://www.xiaojukeji.com/)
 - [饿了么](https://www.ele.me/)
 
-> 如果你的公司和产品使用了 Ant Design，欢迎到 [这里](https://github.com/ant-design/ant-design/issues/477) 留言。
+> 如果你的公司和产品使用了 Namu Design，欢迎到 [这里](https://github.com/ant-design/ant-design/issues/477) 留言。
 
 ## 如何贡献
 

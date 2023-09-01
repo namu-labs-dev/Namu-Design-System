@@ -24,7 +24,7 @@ export default () => (
 
 ## Customize Wave Effect
 
-There is a special design interaction in Ant Design, which is the click wave effect on some components. You can see them everywhere:
+There is a special design interaction in Namu Design, which is the click wave effect on some components. You can see them everywhere:
 
 - <img alt="Button" height="110" src="https://github.com/react-component/picker/assets/5378891/60aaad50-cfd5-4c1f-b91f-0be217877f3f" />
 - <img alt="Checkbox" height="70" src="https://github.com/react-component/picker/assets/5378891/f7d64d64-29db-4c9c-a0d6-de8b36a31d48" />

@@ -1019,7 +1019,7 @@ exports[`renders components/avatar/demo/type.tsx correctly 1`] = `
       class="ant-avatar ant-avatar-circle ant-avatar-image"
     >
       <img
-        src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+        src="https://i.imgur.com/TJ3wOgH.png"
       />
     </span>
   </div>
@@ -1032,7 +1032,7 @@ exports[`renders components/avatar/demo/type.tsx correctly 1`] = `
     >
       <img
         alt="avatar"
-        src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+        src="https://i.imgur.com/TJ3wOgH.png"
       />
     </span>
   </div>

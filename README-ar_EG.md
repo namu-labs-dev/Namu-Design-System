@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="200" src="https://i.imgur.com/TJ3wOgH.png">
   </a>
 </p>
 
-<h1 align="center">Ant Design</h1>
+<h1 align="center">Namu Design</h1>
 
 <div align="center">
 
@@ -102,15 +102,15 @@ const App = () => (
 
 - [الصفحة الرئيسية](https://ant.design/)
 - [نظرة عامة على المكونات](https://ant.design/components/overview)
-- [برنامج Ant Design Pro](https://pro.ant.design/)
+- [برنامج Namu Design Pro](https://pro.ant.design/)
 - [تغير الدخول](CHANGELOG.en-US.md)
 - [مكونات](https://react-component.github.io/)
 - [موبايل UI](https://mobile.ant.design)
 - [برنامج صغير UI](https://mini.ant.design)
-- [مكونات Ant Design Pro](https://procomponents.ant.design)
-- [رسوم بيانية Ant Design](https://charts.ant.design)
-- [أيقونات Ant Design](https://github.com/ant-design/ant-design-icons)
-- [ألوان Ant Design](https://github.com/ant-design/ant-design-colors)
+- [مكونات Namu Design Pro](https://procomponents.ant.design)
+- [رسوم بيانية Namu Design](https://charts.ant.design)
+- [أيقونات Namu Design](https://github.com/ant-design/ant-design-icons)
+- [ألوان Namu Design](https://github.com/ant-design/ant-design-colors)
 - [صفحة لاند](https://landing.ant.design)
 - [حركة](https://motion.ant.design)
 - [سوق Scaffold](https://scaffold.ant.design)

@@ -6,11 +6,11 @@ order: 0
 title: Third-Party Libraries
 ---
 
-`antd` is built to implement [a set of high-quality React UI components](/components/overview) which follow Ant Design specification. It is impossible to include all useful components in one package, so we also recommend that using other great third-party libraries in React community.
+`antd` is built to implement [a set of high-quality React UI components](/components/overview) which follow Namu Design specification. It is impossible to include all useful components in one package, so we also recommend that using other great third-party libraries in React community.
 
 | Category | Recommended Components |
 | --- | --- |
-| Visualization and charts | [Ant Design Charts](https://charts.ant.design) [AntV Data Visualization](https://antv.vision/en) [reactflow](https://reactflow.dev/) |
+| Visualization and charts | [Namu Design Charts](https://charts.ant.design) [AntV Data Visualization](https://antv.vision/en) [reactflow](https://reactflow.dev/) |
 | React Hooks Library | [ahooks](https://github.com/alibaba/hooks) |
 | React Form Library | [ProForm](https://procomponents.ant.design/components/form) [Formily](https://github.com/alibaba/formily) [react-hook-form](https://github.com/react-hook-form/react-hook-form) [formik](https://github.com/formium/formik) |
 | Router | [react-router](https://github.com/ReactTraining/react-router) |

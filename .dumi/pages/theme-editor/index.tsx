@@ -56,8 +56,8 @@ const CustomTheme = () => {
   return (
     <div>
       <Helmet>
-        <title>{`${locale.title} - Ant Design`}</title>
-        <meta property="og:title" content={`${locale.title} - Ant Design`} />
+        <title>{`${locale.title} - Namu Design`}</title>
+        <meta property="og:title" content={`${locale.title} - Namu Design`} />
       </Helmet>
       {contextHolder}
       <Suspense fallback={<Skeleton style={{ margin: 24 }} />}>

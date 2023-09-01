@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="200" src="https://i.imgur.com/TJ3wOgH.png">
   </a>
 </p>
 
-<h1 align="center">Ant Design</h1>
+<h1 align="center">Namu Design</h1>
 
 <div align="center">
 
@@ -106,15 +106,15 @@ const App = () => (
 
 - [首页](https://ant.design/)
 - [所有组件](https://ant.design/components/overview-cn)
-- [Ant Design Pro](http://pro.ant.design/)
+- [Namu Design Pro](http://pro.ant.design/)
 - [更新日志](CHANGELOG.zh-CN.md)
 - [React 底层基础组件](http://react-component.github.io/)
 - [移动端组件](http://mobile.ant.design)
 - [小程序组件](http://mini.ant.design)
 - [页面级组件](https://procomponents.ant.design)
-- [Ant Design 图表](https://charts.ant.design)
-- [Ant Design 图标](https://github.com/ant-design/ant-design-icons)
-- [Ant Design 色彩](https://github.com/ant-design/ant-design-colors)
+- [Namu Design 图表](https://charts.ant.design)
+- [Namu Design 图标](https://github.com/ant-design/ant-design-icons)
+- [Namu Design 色彩](https://github.com/ant-design/ant-design-colors)
 - [首页模板集](https://landing.ant.design)
 - [动效](https://motion.ant.design)
 - [脚手架市场](http://scaffold.ant.design)

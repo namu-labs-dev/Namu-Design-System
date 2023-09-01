@@ -5,21 +5,21 @@ const { Text, Link } = Typography;
 
 const App: React.FC = () => (
   <Space direction="vertical">
-    <Text>Ant Design (default)</Text>
-    <Text type="secondary">Ant Design (secondary)</Text>
-    <Text type="success">Ant Design (success)</Text>
-    <Text type="warning">Ant Design (warning)</Text>
-    <Text type="danger">Ant Design (danger)</Text>
-    <Text disabled>Ant Design (disabled)</Text>
-    <Text mark>Ant Design (mark)</Text>
-    <Text code>Ant Design (code)</Text>
-    <Text keyboard>Ant Design (keyboard)</Text>
-    <Text underline>Ant Design (underline)</Text>
-    <Text delete>Ant Design (delete)</Text>
-    <Text strong>Ant Design (strong)</Text>
-    <Text italic>Ant Design (italic)</Text>
+    <Text>Namu Design (default)</Text>
+    <Text type="secondary">Namu Design (secondary)</Text>
+    <Text type="success">Namu Design (success)</Text>
+    <Text type="warning">Namu Design (warning)</Text>
+    <Text type="danger">Namu Design (danger)</Text>
+    <Text disabled>Namu Design (disabled)</Text>
+    <Text mark>Namu Design (mark)</Text>
+    <Text code>Namu Design (code)</Text>
+    <Text keyboard>Namu Design (keyboard)</Text>
+    <Text underline>Namu Design (underline)</Text>
+    <Text delete>Namu Design (delete)</Text>
+    <Text strong>Namu Design (strong)</Text>
+    <Text italic>Namu Design (italic)</Text>
     <Link href="https://ant.design" target="_blank">
-      Ant Design (Link)
+      Namu Design (Link)
     </Link>
   </Space>
 );

@@ -121,7 +121,7 @@ export default function Banner({ children }: BannerProps) {
         <img
           style={{ position: 'absolute', right: 0, top: 240, width: 240 }}
           src="https://gw.alipayobjects.com/zos/bmw-prod/b3b8dc41-dce8-471f-9d81-9a0204f27d03.svg"
-          alt="Ant Design"
+          alt="Namu Design"
         />
 
         <GroupMask
@@ -145,7 +145,7 @@ export default function Banner({ children }: BannerProps) {
           />
 
           <Typography.Title level={1} className={classNames(styles.titleBase, styles.title)}>
-            Ant Design 5.0
+            Namu Design 5.0
           </Typography.Title>
           <Typography.Paragraph
             style={{

@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="200" src="https://i.imgur.com/TJ3wOgH.png">
   </a>
 </p>
 
-<h1 align="center">Ant Design</h1>
+<h1 align="center">Namu Design</h1>
 
 <div align="center">
 
@@ -102,15 +102,15 @@ const App = () => (
 
 - [ホームページ](https://ant.design/)
 - [コンポーネントの概要](https://ant.design/components/overview)
-- [Ant Design Pro](http://pro.ant.design/)
+- [Namu Design Pro](http://pro.ant.design/)
 - [変更ログ](CHANGELOG.en-US.md)
 - [rc-components](http://react-component.github.io/)
 - [Mobile UI](http://mobile.ant.design)
 - [Mini Program UI](http://mini.ant.design)
-- [Ant Design Pro コンポーネント](https://procomponents.ant.design)
-- [Ant Design チャート](https://charts.ant.design)
-- [Ant Design アイコン](https://github.com/ant-design/ant-design-icons)
-- [Ant Design カラー](https://github.com/ant-design/ant-design-colors)
+- [Namu Design Pro コンポーネント](https://procomponents.ant.design)
+- [Namu Design チャート](https://charts.ant.design)
+- [Namu Design アイコン](https://github.com/ant-design/ant-design-icons)
+- [Namu Design カラー](https://github.com/ant-design/ant-design-colors)
 - [ランディングページ](https://landing.ant.design)
 - [動作](https://motion.ant.design)
 - [足場マーケット](http://scaffold.ant.design)

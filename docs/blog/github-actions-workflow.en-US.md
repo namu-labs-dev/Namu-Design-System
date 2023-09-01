@@ -4,11 +4,11 @@ date: 2023-06-06
 author: Wxh16144
 ---
 
-Hi, I'm [Wxh16144](https://github.com/Wxh16144). I have discovered some tools that can improve development efficiency and code quality through learning Ant Design's component library and participating in community contributions. I'd like to take this opportunity to share my experience with you. To help better understand Ant Design, and to apply these techniques to your own projects.
+Hi, I'm [Wxh16144](https://github.com/Wxh16144). I have discovered some tools that can improve development efficiency and code quality through learning Namu Design's component library and participating in community contributions. I'd like to take this opportunity to share my experience with you. To help better understand Namu Design, and to apply these techniques to your own projects.
 
 # Preface
 
-Ant Design is hosted on GitHub as an open-source project, making it easy to communicate and collaborate with developers around the world, and allowing developers to submit issues and pull requests. Additionally, we can well manage the code repository and automate workflows such as testing and deployment through utilizing GitHub Actions and its CI/CD capabilities.
+Namu Design is hosted on GitHub as an open-source project, making it easy to communicate and collaborate with developers around the world, and allowing developers to submit issues and pull requests. Additionally, we can well manage the code repository and automate workflows such as testing and deployment through utilizing GitHub Actions and its CI/CD capabilities.
 
 ## What is GitHub Actions
 
@@ -24,9 +24,9 @@ Here's a visual representation from the official documentation that shows the re
 
 # How to use
 
-With the knowledge we have gained, we know that all of Ant Design's workflows are managed in the [`.github/workflows`](https://github.com/ant-design/ant-design/tree/master/.github/workflows) directory.
+With the knowledge we have gained, we know that all of Namu Design's workflows are managed in the [`.github/workflows`](https://github.com/ant-design/ant-design/tree/master/.github/workflows) directory.
 
-Ant Design's CI covers the following aspects:
+Namu Design's CI covers the following aspects:
 
 - **Community management**: Use GitHub Actions to perform quality checks on issues/PRs and improve collaboration efficiency through comments and labels.
 - **Code quality**: Use ESLint and Prettier to perform code standard checks to ensure code quality and consistency.
@@ -65,7 +65,7 @@ Using GitHub Actions scheduled tasks to help manage and close issues, these auto
 
 ## Pull Request
 
-The Ant Design team strongly encourages community involvement in Pull Request (PR), and provides the [Contributor development maintenance guide](./contributor-development-maintenance-guide) document for reference. It's important to follow certain standards when submitting a PR to ensure quality and effective communication. Additionally, the team uses GitHub Actions to require and review certain aspects of PRs to maintain code quality and ensure long-term project maintenance.
+The Namu Design team strongly encourages community involvement in Pull Request (PR), and provides the [Contributor development maintenance guide](./contributor-development-maintenance-guide) document for reference. It's important to follow certain standards when submitting a PR to ensure quality and effective communication. Additionally, the team uses GitHub Actions to require and review certain aspects of PRs to maintain code quality and ensure long-term project maintenance.
 
 ### PR Pre-test
 
@@ -105,15 +105,15 @@ Unit testing is one of the most important components of component library qualit
 
 ### Build Testing
 
-The team wanted the packaged product to build properly after each code update. Ant Design has added the [Dist Job](https://github.com/ant-design/ant-design/blob/master/.github/workflows/test.yml#L104-L138) and [Compile Job](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L254-L288) in the test.yml file to ensure the repository can be built and packaged correctly.
+The team wanted the packaged product to build properly after each code update. Namu Design has added the [Dist Job](https://github.com/ant-design/ant-design/blob/master/.github/workflows/test.yml#L104-L138) and [Compile Job](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L254-L288) in the test.yml file to ensure the repository can be built and packaged correctly.
 
 ### Function Testing
 
 you may notice that there are as many as 30 jobs related to testing only each time.
 
-The team is very cautious about unit testing and needs to consider the running status of components on various major versions of React (usually versions 16, 17, and 18). If it is an update to the main branch, the running status of project build artifacts (usually `dist`, `es`, and `lib`) on three versions of React also needs to be considered. Currently, it is known that all components of Ant Design have over 4000 test cases. In order to further improve the efficiency of testing, we have also set up a distributed testing environment.
+The team is very cautious about unit testing and needs to consider the running status of components on various major versions of React (usually versions 16, 17, and 18). If it is an update to the main branch, the running status of project build artifacts (usually `dist`, `es`, and `lib`) on three versions of React also needs to be considered. Currently, it is known that all components of Namu Design have over 4000 test cases. In order to further improve the efficiency of testing, we have also set up a distributed testing environment.
 
-With the help of the [Job matrix strategy](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs), CI can configure multiple jobs to perform testing tasks at one time. [Normal test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L141-L223) and [Module test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L294-L357) are the jobs that Ant Design uses the matrix strategy to test.
+With the help of the [Job matrix strategy](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs), CI can configure multiple jobs to perform testing tasks at one time. [Normal test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L141-L223) and [Module test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L294-L357) are the jobs that Namu Design uses the matrix strategy to test.
 
 ## Website Deploy
 
@@ -131,7 +131,7 @@ As we all know, the [https://ant.design](https://ant.design) official website al
 
 ## Other
 
-In the previous sections, we introduced many scenarios used by Ant Design. However, there are still some Jobs that haven't been specifically introduced. Here are some additional details to supplement that.
+In the previous sections, we introduced many scenarios used by Namu Design. However, there are still some Jobs that haven't been specifically introduced. Here are some additional details to supplement that.
 
 ### IM notification
 
@@ -145,7 +145,7 @@ To ensure that developers and community members are informed of relevant informa
 
 ## Apply to your own projects
 
-In the previous sections, we introduced many scenarios in which Ant Design uses GitHub Action. Why not try to apply it to your own project and improve production efficiency? Let's demonstrate this with a simple demo.
+In the previous sections, we introduced many scenarios in which Namu Design uses GitHub Action. Why not try to apply it to your own project and improve production efficiency? Let's demonstrate this with a simple demo.
 
 ### Creating a Project
 
@@ -255,4 +255,4 @@ Regarding the `Setup pnpm cache` step above, any cached items that have not been
 
 ## After all
 
-I hope it has helped you gain a deeper understanding of Ant Design. You are also welcome to participate in discussions and contribute to the project at the [Ant Design Discussion](https://github.com/ant-design/ant-design/discussions).
+I hope it has helped you gain a deeper understanding of Namu Design. You are also welcome to participate in discussions and contribute to the project at the [Namu Design Discussion](https://github.com/ant-design/ant-design/discussions).

@@ -40,7 +40,7 @@ const App: React.FC = () => {
         size={size}
         iconSize={size / 4}
         value="https://ant.design/"
-        icon="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+        icon="https://i.imgur.com/TJ3wOgH.png"
       />
     </>
   );

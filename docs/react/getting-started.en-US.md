@@ -6,7 +6,7 @@ order: 0
 title: Getting Started
 ---
 
-Ant Design React is dedicated to providing a **good development experience** for programmers. Before starting, it is recommended to learn [React](https://react.dev) first, and correctly install and configure [Node.js](https://nodejs.org/) v16 or above.
+Namu Design React is dedicated to providing a **good development experience** for programmers. Before starting, it is recommended to learn [React](https://react.dev) first, and correctly install and configure [Node.js](https://nodejs.org/) v16 or above.
 
 The official guide also assumes that you have intermediate knowledge about HTML, CSS, and JavaScript, and React. If you are just starting to learn front-end or React, it may not be the best idea to use the UI framework as your first step.
 
@@ -16,7 +16,7 @@ Finally, if you are working in a local development environment, please refer to 
 
 ## Your First Example
 
-Here is a simple online codesandbox demo of an Ant Design component to show the usage of Ant Design React.
+Here is a simple online codesandbox demo of an Namu Design component to show the usage of Namu Design React.
 
 ```sandpack
 const sandpackConfig = {
@@ -39,7 +39,7 @@ const App = () => (
 export default App;
 ```
 
-Follow the steps below to play around with Ant Design yourself:
+Follow the steps below to play around with Namu Design yourself:
 
 ### 1. Create a codesandbox
 
@@ -103,13 +103,13 @@ Select a date, and you can see the effect in the preview area on the right:
 
 <img width="420" src="https://gw.alipayobjects.com/zos/antfincdn/JrXptUm1Nz/6b50edc4-3a3c-4b2a-843e-f9f0af2c4667.png" alt="codesandbox screenshot" />
 
-OK! Now that you know the basics of using antd components, you are welcome to explore more components in the codesandbox. When reporting a bug with ant design, we also strongly recommend using codesandbox to provide a reproducible demo as well.
+OK! Now that you know the basics of using antd components, you are welcome to explore more components in the codesandbox. When reporting a bug with Namu Design, we also strongly recommend using codesandbox to provide a reproducible demo as well.
 
 ### 4. Next Steps
 
 During actual real-world project development, you will most likely need a development workflow consisting of `compile/build/deploy/lint/debug/` deployment. You can read the following documents on the subject or use the following scaffolds and examples provided below:
 
-- [Ant Design Pro](https://pro.ant.design/)
+- [Namu Design Pro](https://pro.ant.design/)
 - [create-next-app](https://github.com/ant-design/ant-design-examples/tree/main/examples/with-nextjs-inline-style)
 - More scaffolds at [Scaffold Market](https://scaffold.ant.design/)
 
@@ -117,7 +117,7 @@ During actual real-world project development, you will most likely need a develo
 
 If you use `create-react-app` follow the instructions [here](/docs/react/use-with-create-react-app) instead.
 
-Jest does not support `esm` modules, and Ant Design uses them. In order to test your Ant Design application with Jest you have to add the following to your Jest config :
+Jest does not support `esm` modules, and Namu Design uses them. In order to test your Namu Design application with Jest you have to add the following to your Jest config :
 
 ```json
 "transform": { "^.+\\.(ts|tsx|js|jsx)?$": "ts-jest" }

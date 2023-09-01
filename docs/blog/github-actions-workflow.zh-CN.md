@@ -4,11 +4,11 @@ date: 2023-06-06
 author: Wxh16144
 ---
 
-大家好，我是 [Wxh16144](https://github.com/Wxh16144)，通过学习 Ant Design 的组件库和参与社区贡献，我发现了一些提高开发效率和代码质量的工具。借此机会，希望与大家分享我的经验，帮助大家更好地了解 Ant Design，并将这些技巧应用到自己的项目中。
+大家好，我是 [Wxh16144](https://github.com/Wxh16144)，通过学习 Namu Design 的组件库和参与社区贡献，我发现了一些提高开发效率和代码质量的工具。借此机会，希望与大家分享我的经验，帮助大家更好地了解 Namu Design，并将这些技巧应用到自己的项目中。
 
 # 前言
 
-Ant Design 以开源的形式托管在 GitHub，方便更好的与全球开发者进行交流和合作，也方便开发者提交 issue 和 PR。同时借助 [GitHub Actions](https://github.com/features/actions) 和 CI/CD 能力，使得我们更好的管理代码仓库和自动化测试、部署等工作流程，本文将着重介绍 Actions 提供的能力。
+Namu Design 以开源的形式托管在 GitHub，方便更好的与全球开发者进行交流和合作，也方便开发者提交 issue 和 PR。同时借助 [GitHub Actions](https://github.com/features/actions) 和 CI/CD 能力，使得我们更好的管理代码仓库和自动化测试、部署等工作流程，本文将着重介绍 Actions 提供的能力。
 
 ## 什么是 GitHub Actions
 
@@ -24,9 +24,9 @@ GitHub Actions 是一个自动化软件开发工作流程的平台，从想法�
 
 # 如何使用
 
-通过上述了解，我们可以知道 Ant Design 的所有 Workflow 都放置在 [`.github/workflows`](https://github.com/ant-design/ant-design/tree/master/.github/workflows) 目录中进行管理。
+通过上述了解，我们可以知道 Namu Design 的所有 Workflow 都放置在 [`.github/workflows`](https://github.com/ant-design/ant-design/tree/master/.github/workflows) 目录中进行管理。
 
-Ant Design 的 CI 覆盖了以下几个方面：
+Namu Design 的 CI 覆盖了以下几个方面：
 
 - **社区管理**：使用 GitHub Actions 进行 issue/PR 质量检查，通过评论和标签来提高 issue/PR 的质量，提高协作效率。
 - **代码质量**：使用 ESLint 和 Prettier 进行代码规范检查，以确保代码质量和一致性。
@@ -40,7 +40,7 @@ issue 作为 GitHub 平台上的一个功能，它像一个信息汇总中心一
 
 ### 保证 issue 质量
 
-为了确保 issue 包含足够的信息，帮助 Ant Design 团队对 issue 进行分析和优先级排序，我们提供了 [issue 助手](http://new-issue.ant.design) 来规范创建 issue 的流程。同时，利用 GitHub Actions 对创建的 issue 进行检查。未通过助手创建的 issue 将会被关闭，并打上 [Invalid](https://github.com/ant-design/ant-design/issues?q=label%3AInvalid) 标签，然后以评论的形式提醒创建者需要如何进行提问。就像这样：
+为了确保 issue 包含足够的信息，帮助 Namu Design 团队对 issue 进行分析和优先级排序，我们提供了 [issue 助手](http://new-issue.ant.design) 来规范创建 issue 的流程。同时，利用 GitHub Actions 对创建的 issue 进行检查。未通过助手创建的 issue 将会被关闭，并打上 [Invalid](https://github.com/ant-design/ant-design/issues?q=label%3AInvalid) 标签，然后以评论的形式提醒创建者需要如何进行提问。就像这样：
 
 ![invalid-issue-preview](https://user-images.githubusercontent.com/32004925/231660945-509cf97c-43eb-4a1c-acd2-81eeedfe4a73.png)
 
@@ -65,7 +65,7 @@ issue 作为 GitHub 平台上的一个功能，它像一个信息汇总中心一
 
 ## Pull Request
 
-Ant Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [《贡献者开发维护指南》](./contributor-development-maintenance-guide-cn) 文档，注意 PR 提交时需要遵守一些规范以确保质量和沟通。同时，也会利用 GitHub Action 对 PR 进行一些要求和审核，以保证代码质量和项目的长期维护。
+Namu Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [《贡献者开发维护指南》](./contributor-development-maintenance-guide-cn) 文档，注意 PR 提交时需要遵守一些规范以确保质量和沟通。同时，也会利用 GitHub Action 对 PR 进行一些要求和审核，以保证代码质量和项目的长期维护。
 
 ### PR 预检
 
@@ -105,7 +105,7 @@ Ant Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [�
 
 ### 构建测试
 
-团队希望每次代码更新后，都能正常构建打包产物， Ant Design 在 test.yml 文件中添加了 [Dist Job](https://github.com/ant-design/ant-design/blob/master/.github/workflows/test.yml#L104-L138) 和 [Compile Job](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L254-L288) 以保证仓库可以进行正常打包构建。
+团队希望每次代码更新后，都能正常构建打包产物， Namu Design 在 test.yml 文件中添加了 [Dist Job](https://github.com/ant-design/ant-design/blob/master/.github/workflows/test.yml#L104-L138) 和 [Compile Job](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L254-L288) 以保证仓库可以进行正常打包构建。
 
 ### 功能测试
 
@@ -113,9 +113,9 @@ Ant Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [�
 
 ![test-jobs-preview](https://user-images.githubusercontent.com/32004925/234482326-7c1074b5-e75a-494e-b1c7-c8ccc482ba7c.png)
 
-团队对于单元测试的态度非常谨慎，需要考虑组件在 React 的各个主要版本上的运行情况（通常为 16、17 和 18 这三个版本）如果是主分支的更新，还需要考虑项目构建产物（通常为 `dist`、`es` 以及 `lib`）在三个 React 版本上的运行情况。目前已知 Ant Design 所有组件共有 4000 多个测试用例。为了进一步提高测试效率，我们还搭建了分布式测试环境。
+团队对于单元测试的态度非常谨慎，需要考虑组件在 React 的各个主要版本上的运行情况（通常为 16、17 和 18 这三个版本）如果是主分支的更新，还需要考虑项目构建产物（通常为 `dist`、`es` 以及 `lib`）在三个 React 版本上的运行情况。目前已知 Namu Design 所有组件共有 4000 多个测试用例。为了进一步提高测试效率，我们还搭建了分布式测试环境。
 
-所有这些功能都得益于 GitHub Action 的 [Job 矩阵策略](https://docs.github.com/zh/actions/using-jobs/using-a-matrix-for-your-jobs) ，使得我们可以一次性配置多个 Job 来执行测试任务, [Normal test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L141-L223) 和 [Module test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L294-L357) 是 Ant Design 利用矩阵策略测试相关的 Job。
+所有这些功能都得益于 GitHub Action 的 [Job 矩阵策略](https://docs.github.com/zh/actions/using-jobs/using-a-matrix-for-your-jobs) ，使得我们可以一次性配置多个 Job 来执行测试任务, [Normal test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L141-L223) 和 [Module test](https://github.com/ant-design/ant-design/blob/40fb753349c4f2be314c91dbb7e6f1a960097c19/.github/workflows/test.yml#L294-L357) 是 Namu Design 利用矩阵策略测试相关的 Job。
 
 ## 网站部署
 
@@ -133,7 +133,7 @@ Ant Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [�
 
 ## 其他
 
-上面的篇幅已经讲述了 Ant Design 利用 CI/CD 完成的大部分核心内容，但实际上还有一些 Job 没有具体介绍，这里再补充一些。
+上面的篇幅已经讲述了 Namu Design 利用 CI/CD 完成的大部分核心内容，但实际上还有一些 Job 没有具体介绍，这里再补充一些。
 
 ### 接入 IM 通知
 
@@ -147,7 +147,7 @@ Ant Design 团队非常鼓励社区参与 Pull Request (PR)，可以先阅读 [�
 
 ## 接入自己项目
 
-前面向大家介绍了 Ant Design 使用 GitHub Action 的诸多场景，我们不妨实际动手尝试一下，运用到自己项目中，提高生产效率。下面通过一个简单的 Demo 进行演示。
+前面向大家介绍了 Namu Design 使用 GitHub Action 的诸多场景，我们不妨实际动手尝试一下，运用到自己项目中，提高生产效率。下面通过一个简单的 Demo 进行演示。
 
 ### 创建项目
 
@@ -260,4 +260,4 @@ jobs:
 
 ## 总结
 
-本次文章到这里就结束了，希望可以帮助大家更进一步了解 Ant Design，也欢迎大家前往 [讨论区](https://github.com/ant-design/ant-design/discussions) 参与讨论和建设。
+本次文章到这里就结束了，希望可以帮助大家更进一步了解 Namu Design，也欢迎大家前往 [讨论区](https://github.com/ant-design/ant-design/discussions) 参与讨论和建设。

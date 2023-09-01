@@ -6,7 +6,7 @@ title: 贡献指南
 toc: false
 ---
 
-这篇指南会指导你如何为 Ant Design 贡献一份自己的力量，请在你要提 issue 或者 pull request 之前花几分钟来阅读一遍这篇指南。
+这篇指南会指导你如何为 Namu Design 贡献一份自己的力量，请在你要提 issue 或者 pull request 之前花几分钟来阅读一遍这篇指南。
 
 ## 行为准则
 
@@ -46,7 +46,7 @@ toc: false
 
 ## Pull Request
 
-Ant Design 团队会关注所有的 pull request，我们会 review 以及合并你的代码，也有可能要求你做一些修改或者告诉你我们为什么不能接受这样的修改。
+Namu Design 团队会关注所有的 pull request，我们会 review 以及合并你的代码，也有可能要求你做一些修改或者告诉你我们为什么不能接受这样的修改。
 
 **在你发送 Pull Request 之前**，请确认你是按照下面的步骤来做的：
 
@@ -61,7 +61,7 @@ Ant Design 团队会关注所有的 pull request，我们会 review 以及合并
 
 给 [react-component](https://github.com/react-component/) 发送 pull request：
 
-由于 antd 的大部分组件都是基于 react-component 的，所以有时候你可能需要给相应的 react-component 仓库发送 pull request。如果你是修复了某个 bug，那么我们在合并你的修改后会尽快发布一个 patch 版本，然后你只要重新安装你的依赖就可以使用新发布的版本了。如果你的 pull request 是新增了某个功能，那么在你的修改合并并且发布版本后，你还需要发送一个 pull request 到 [Ant Design](https://github.com/ant-design/ant-design/) 来升级相应的依赖、文档以及 TypeScript 的类型定义。
+由于 antd 的大部分组件都是基于 react-component 的，所以有时候你可能需要给相应的 react-component 仓库发送 pull request。如果你是修复了某个 bug，那么我们在合并你的修改后会尽快发布一个 patch 版本，然后你只要重新安装你的依赖就可以使用新发布的版本了。如果你的 pull request 是新增了某个功能，那么在你的修改合并并且发布版本后，你还需要发送一个 pull request 到 [Namu Design](https://github.com/ant-design/ant-design/) 来升级相应的依赖、文档以及 TypeScript 的类型定义。
 
 ## 开发流程
 
@@ -75,7 +75,7 @@ Ant Design 团队会关注所有的 pull request，我们会 review 以及合并
 
 ### 本地运行
 
-在本地运行 Ant Design 的网站。
+在本地运行 Namu Design 的网站。
 
 <InstallDependencies npm='$ npm start' yarn='$ yarn start'></InstallDependencies>
 
@@ -108,10 +108,10 @@ Ant Design 团队会关注所有的 pull request，我们会 review 以及合并
 
 ## 加入社区
 
-如果你贡献度足够活跃，希望和 Ant Design 团队一起参与维护工作，你可以[申请成为社区协作者](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)。
+如果你贡献度足够活跃，希望和 Namu Design 团队一起参与维护工作，你可以[申请成为社区协作者](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)。
 
 你还可以参考下面三篇社区成员写的贡献指南，一步一步成为 antd 的贡献者吧：
 
-- [记录向：如何快速的成为 Ant Design 的 contributor](https://zhuanlan.zhihu.com/p/123367842) [@Rustin-Liu](https://github.com/Rustin-Liu)
+- [记录向：如何快速的成为 Namu Design 的 contributor](https://zhuanlan.zhihu.com/p/123367842) [@Rustin-Liu](https://github.com/Rustin-Liu)
 - [从 0 开始，成为 Ant-Design Contributor](https://zhuanlan.zhihu.com/p/143895612) [@fireairforce](https://github.com/fireairforce)
 - [如何成长为 Collaborator](/docs/blog/to-be-collaborator-cn)

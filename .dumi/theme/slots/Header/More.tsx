@@ -65,7 +65,7 @@ export const getEcosystemGroup = (): MenuProps['items'] => [
   {
     label: (
       <a href="http://ng.ant.design" target="_blank" rel="noopener noreferrer">
-        Ant Design of Angular
+        Namu Design of Angular
         <Community />
       </a>
     ),
@@ -74,7 +74,7 @@ export const getEcosystemGroup = (): MenuProps['items'] => [
   {
     label: (
       <a href="http://antdv.com" target="_blank" rel="noopener noreferrer">
-        Ant Design of Vue
+        Namu Design of Vue
         <Community />
       </a>
     ),

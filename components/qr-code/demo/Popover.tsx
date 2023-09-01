@@ -1,7 +1,7 @@
 import React from 'react';
 import { QRCode, Popover } from 'antd';
 
-const src = 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg';
+const src = 'https://i.imgur.com/TJ3wOgH.png';
 
 const App: React.FC = () => (
   <Popover overlayInnerStyle={{ padding: 0 }} content={<QRCode value={src} bordered={false} />}>

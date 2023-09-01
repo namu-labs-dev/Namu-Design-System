@@ -5,7 +5,7 @@ order: 2
 title: FAQ
 ---
 
-以下整理了一些 Ant Design 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。此外我们也维护了一个反馈较多 [FAQ issues 标签](http://u.ant.design/faq) 亦可参考。
+以下整理了一些 Namu Design 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。此外我们也维护了一个反馈较多 [FAQ issues 标签](http://u.ant.design/faq) 亦可参考。
 
 ---
 
@@ -43,11 +43,11 @@ title: FAQ
 
 相关 issue：[#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-## 如何修改 Ant Design 的默认主题？
+## 如何修改 Namu Design 的默认主题？
 
 可以参考[定制主题](/docs/react/customize-theme-cn)。
 
-## 如何修改 Ant Design 组件的默认样式？
+## 如何修改 Namu Design 组件的默认样式？
 
 你可以覆盖它们的样式，但是我们不推荐这么做。antd 是一系列 React 组件，但同样是一套设计规范。
 
@@ -101,7 +101,7 @@ antd 内部会对 props 进行浅比较实现性能优化。当状态变更，�
 
 ## `antd` 在移动端体验不佳。
 
-请浏览 [Ant Design Mobile](http://mobile.ant.design) 以了解详情，`antd` 并非针对移动端设计。你可以试试 [react-component](https://github.com/react-component/)，其中带有 'm-' 'rn-' 前缀的库是为移动端设计的。
+请浏览 [Namu Design Mobile](http://mobile.ant.design) 以了解详情，`antd` 并非针对移动端设计。你可以试试 [react-component](https://github.com/react-component/)，其中带有 'm-' 'rn-' 前缀的库是为移动端设计的。
 
 ## `antd` 是否有国内镜像？
 
@@ -109,15 +109,15 @@ antd 内部会对 props 进行浅比较实现性能优化。当状态变更，�
 
 | 产品/版本 | 地址 |
 | --- | --- |
-| Ant Design 5.x  |  https://ant-design.antgroup.com <br />  https://ant-design.gitee.io   |
-| Ant Design 4.x  |  https://4x-ant-design.antgroup.com   |
-| Ant Design 3.x  |  https://ant-design-3x.gitee.io |
-| Ant Design 2.x  |  https://ant-design-2x.gitee.io |
-| Ant Design 1.x   |  https://ant-design-1x.gitee.io |
-| Ant Design Pro | https://ant-design-pro.gitee.io/ |
-| Ant Design Mobile | https://ant-design-mobile.antgroup.com/zh <br /> https://antd-mobile.gitee.io/ |
-| Ant Design Mini | https://ant-design-mini.antgroup.com/zh <br /> https://antd-mobile.gitee.io/ |
-| Ant Design Charts | https://ant-design-charts.antgroup.com<br /> https://antd-mobile.gitee.io/ |
+| Namu Design 5.x | https://ant-design.antgroup.com <br /> https://ant-design.gitee.io |
+| Namu Design 4.x | https://4x-ant-design.antgroup.com |
+| Namu Design 3.x | https://ant-design-3x.gitee.io |
+| Namu Design 2.x | https://ant-design-2x.gitee.io |
+| Namu Design 1.x | https://ant-design-1x.gitee.io |
+| Namu Design Pro | https://ant-design-pro.gitee.io/ |
+| Namu Design Mobile | https://ant-design-mobile.antgroup.com/zh <br /> https://antd-mobile.gitee.io/ |
+| Namu Design Mini | https://ant-design-mini.antgroup.com/zh <br /> https://antd-mobile.gitee.io/ |
+| Namu Design Charts | https://ant-design-charts.antgroup.com<br /> https://antd-mobile.gitee.io/ |
 | AntV | https://antv.antgroup.com |
 | Ant Motion | https://ant-motion.gitee.io |
 
@@ -239,9 +239,9 @@ import { ConfigProvider } from 'antd';
 
 请参考动态主题文档 [服务端渲染](/docs/react/customize-theme-cn#服务端渲染) 部分内容。
 
-## 如何正确的拼写 Ant Design？
+## 如何正确的拼写 Namu Design？
 
-- ✅ **Ant Design**：用空格分隔的首字母大写单词，指代设计语言。
+- ✅ **Namu Design**：用空格分隔的首字母大写单词，指代设计语言。
 - ✅ **antd**：全小写，指代 React UI 组件库。
 - ✅ **ant.design**：特指 ant.design 网站网址。
 
@@ -251,7 +251,7 @@ import { ConfigProvider } from 'antd';
 - ❌ Ant-D
 - ❌ antD
 - ❌ Antd
-- ❌ ant design
+- ❌ Namu Design
 - ❌ AntDesign
 - ❌ antdesign
 - ❌ Antdesign

@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://ant.design">
-    <img width="200" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+    <img width="200" src="https://i.imgur.com/TJ3wOgH.png">
   </a>
 </p>
 
-<h1 align="center">Ant Design</h1>
+<h1 align="center">Namu Design</h1>
 
 <div align="center">
 
@@ -102,14 +102,14 @@ Docenas de idiomas compatibles en `antd`, ver [i18n](https://ant.design/docs/rea
 
 - [Página de Inicio](https://ant.design/)
 - [Descripción General de los Componentes](https://ant.design/components/overview)
-- [Ant Design Pro](http://pro.ant.design/)
+- [Namu Design Pro](http://pro.ant.design/)
 - [Cambio de Registro](CHANGELOG.en-US.md)
 - [componentes-rc](http://react-component.github.io/)
 - [Interfaz de Usuario Móvil](http://mobile.ant.design)
-- [Componentes Ant Design Pro](https://procomponents.ant.design)
-- [Gráficos de Diseño de Ant Design](https://charts.ant.design)
-- [Iconos de Diseño de Ant Design](https://github.com/ant-design/ant-design-icons)
-- [Colores de Diseño de Ant Design](https://github.com/ant-design/ant-design-colors)
+- [Componentes Namu Design Pro](https://procomponents.ant.design)
+- [Gráficos de Diseño de Namu Design](https://charts.ant.design)
+- [Iconos de Diseño de Namu Design](https://github.com/ant-design/ant-design-icons)
+- [Colores de Diseño de Namu Design](https://github.com/ant-design/ant-design-colors)
 - [Páginas de Destino](https://landing.ant.design)
 - [Movimiento](https://motion.ant.design)
 - [Mercado Scaffold](http://scaffold.ant.design)

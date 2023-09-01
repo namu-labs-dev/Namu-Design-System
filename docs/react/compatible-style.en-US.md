@@ -5,7 +5,7 @@ order: 1
 title: CSS Compatible
 ---
 
-Ant Design supports the last 2 versions of modern browsers. If you need to be compatible with legacy browsers, please perform downgrade processing according to actual needs:
+Namu Design supports the last 2 versions of modern browsers. If you need to be compatible with legacy browsers, please perform downgrade processing according to actual needs:
 
 ## StyleProvider
 
@@ -13,7 +13,7 @@ Please ref [`@ant-design/cssinjs`](https://github.com/ant-design/cssinjs#stylepr
 
 ## Compatible adjustment
 
-Ant Design default using CSS-in-JS with `:where` Selector to reduce priority to avoid user additional adjust style cost when updating. If you want to support old browser (or some other CSS framework selector priority conflict like TailwindCSS), you can use `@ant-design/cssinjs` to adjust this behavior (Please note keep version align with antd):
+Namu Design default using CSS-in-JS with `:where` Selector to reduce priority to avoid user additional adjust style cost when updating. If you want to support old browser (or some other CSS framework selector priority conflict like TailwindCSS), you can use `@ant-design/cssinjs` to adjust this behavior (Please note keep version align with antd):
 
 ```tsx
 import { StyleProvider } from '@ant-design/cssinjs';
@@ -53,7 +53,7 @@ Raise priority through plugin:
 
 ## CSS Logical Properties
 
-To unify LTR and RTL styles, Ant Design uses CSS logical properties. For example, the original `margin-left` is replaced by `margin-inline-start`, so that it is the starting position spacing under both LTR and RTL. If you need to be compatible with older browsers, you can configure `transformers` through the `StyleProvider` of `@ant-design/cssinjs`:
+To unify LTR and RTL styles, Namu Design uses CSS logical properties. For example, the original `margin-left` is replaced by `margin-inline-start`, so that it is the starting position spacing under both LTR and RTL. If you need to be compatible with older browsers, you can configure `transformers` through the `StyleProvider` of `@ant-design/cssinjs`:
 
 ```tsx
 import { StyleProvider, legacyLogicalPropertiesTransformer } from '@ant-design/cssinjs';

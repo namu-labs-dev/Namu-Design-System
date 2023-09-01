@@ -580,7 +580,7 @@ exports[`renders components/breadcrumb/demo/overlay.tsx extend context correctly
       <span
         class="ant-breadcrumb-link"
       >
-        Ant Design
+        Namu Design
       </span>
     </li>
     <li

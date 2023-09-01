@@ -352,8 +352,8 @@ describe('ConfigProvider', () => {
             <List.Item.Meta
               {...props}
               avatar={<Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel" />}
-              title="Ant Design"
-              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+              title="Namu Design"
+              description="Namu Design, a design language for background applications, is refined by Ant UED Team"
             />
           </List.Item>
         )}

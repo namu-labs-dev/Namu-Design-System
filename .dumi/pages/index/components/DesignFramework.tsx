@@ -32,11 +32,11 @@ const locales = {
     guide: '设计指引',
     guideDesc: '全局样式、设计模式',
     lib: '组件库',
-    libDesc: 'Ant Design of React / Angular / Vue',
+    libDesc: 'Namu Design of React / Angular / Vue',
 
     // Secondary
-    mobile: 'Ant Design Mobile',
-    mobileDesc: 'Ant Design 移动端 UI 组件库',
+    mobile: 'Namu Design Mobile',
+    mobileDesc: 'Namu Design 移动端 UI 组件库',
     antv: 'AntV',
     antvDesc: '全新一代数据可视化解决方案',
     kitchen: 'Kitchen',
@@ -48,10 +48,10 @@ const locales = {
     guide: 'Design guide',
     guideDesc: 'Global style and design pattern',
     lib: 'Components Libraries',
-    libDesc: 'Ant Design of React / Angular / Vue',
+    libDesc: 'Namu Design of React / Angular / Vue',
 
     // Secondary
-    mobile: 'Ant Design Mobile',
+    mobile: 'Namu Design Mobile',
     mobileDesc: 'Mobile UI component library',
     antv: 'AntV',
     antvDesc: 'New generation of data visualization solutions',
@@ -62,30 +62,32 @@ const locales = {
 
 const useStyle = createStyles(({ token, css }) => ({
   card: css`
-      padding: ${token.paddingSM}px;
-      border-radius: ${token.borderRadius * 2}px;
-      background: #fff;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02),
-        0 2px 4px rgba(0, 0, 0, 0.02);
+    padding: ${token.paddingSM}px;
+    border-radius: ${token.borderRadius * 2}px;
+    background: #fff;
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.03),
+      0 1px 6px -1px rgba(0, 0, 0, 0.02),
+      0 2px 4px rgba(0, 0, 0, 0.02);
 
-      img {
-        width: 100%;
-        vertical-align: top;
-        border-radius: ${token.borderRadius}px;
-      }
-    `,
+    img {
+      width: 100%;
+      vertical-align: top;
+      border-radius: ${token.borderRadius}px;
+    }
+  `,
 
   cardMini: css`
-      display: block;
-      border-radius: ${token.borderRadius * 2}px;
-      padding: ${token.paddingMD}px ${token.paddingLG}px;
-      background: rgba(0, 0, 0, 0.02);
-      border: 1px solid rgba(0, 0, 0, 0.06);
+    display: block;
+    border-radius: ${token.borderRadius * 2}px;
+    padding: ${token.paddingMD}px ${token.paddingLG}px;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.06);
 
-      img {
-        height: 48px;
-      }
-    `,
+    img {
+      height: 48px;
+    }
+  `,
 }));
 
 export default function DesignFramework() {

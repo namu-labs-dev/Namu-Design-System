@@ -2,7 +2,7 @@ import { UserOutlined } from '@ant-design/icons';
 import React from 'react';
 import { Avatar, Space } from 'antd';
 
-const url = 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg';
+const url = 'https://i.imgur.com/TJ3wOgH.png';
 
 const App: React.FC = () => (
   <Space size={16} wrap>

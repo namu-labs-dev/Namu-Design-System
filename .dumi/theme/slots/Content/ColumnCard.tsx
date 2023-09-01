@@ -10,96 +10,96 @@ const ANTD_IMG_URL =
 
 const useStyle = createStyles(({ token, css }) => ({
   card: css`
-      width: 100%;
-      margin: 40px 0;
-      transition: all 0.2s;
-      background-color: ${token.colorFillQuaternary};
-    `,
+    width: 100%;
+    margin: 40px 0;
+    transition: all 0.2s;
+    background-color: ${token.colorFillQuaternary};
+  `,
   bigTitle: css`
-      font-size: 16px;
-      color: #121212;
-      margin-bottom: 24px;
-      font-weight: 600;
-    `,
+    font-size: 16px;
+    color: #121212;
+    margin-bottom: 24px;
+    font-weight: 600;
+  `,
   cardBody: css`
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    `,
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  `,
   left: css`
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      img {
-        width: 200px;
-        margin-right: 24px;
-        overflow: hidden;
-        border-radius: 8px;
-      }
-    `,
-  title: css`
-      color: #444;
-      font-size: 16px;
-      font-weight: 600;
-    `,
-  subTitle: css`
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      color: #646464;
-      font-size: 14px;
-      font-weight: 400;
-      margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 200px;
+      margin-right: 24px;
       overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      .logo {
-        width: 24px;
-        height: 24px;
-        font-size: 24px;
-        &.zhihu-logo {
-          color: #056de8;
-        }
-        &.yuque-logo {
-          color: #00b96b;
-        }
-        &.juejin-logo {
-          color: #1e80ff;
-        }
+      border-radius: 8px;
+    }
+  `,
+  title: css`
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+  `,
+  subTitle: css`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    .logo {
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      &.zhihu-logo {
+        color: #056de8;
       }
-      .arrowIcon {
-        margin: 0 8px;
-        color: #8a8f8d;
-        font-size: 12px;
+      &.yuque-logo {
+        color: #00b96b;
       }
-      .zl-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        color: #646464;
+      &.juejin-logo {
+        color: #1e80ff;
       }
-    `,
-  btn: css`
+    }
+    .arrowIcon {
+      margin: 0 8px;
+      color: #8a8f8d;
+      font-size: 12px;
+    }
+    .zl-btn {
       display: flex;
-      justify-content: center;
       align-items: center;
-    `,
+      justify-content: center;
+      padding: 0;
+      color: #646464;
+    }
+  `,
+  btn: css`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `,
 }));
 
 const locales = {
   cn: {
     bigTitle: '文章被以下专栏收录：',
     zhiHu: '一个 UI 设计体系',
-    yuQue: 'Ant Design 官方专栏',
-    junjin: 'Ant Design 开源专栏',
+    yuQue: 'Namu Design 官方专栏',
+    junjin: 'Namu Design 开源专栏',
     buttonText: '我有想法，去参与讨论',
   },
   en: {
     bigTitle: 'Articles are included in the column:',
     zhiHu: 'A UI design system',
-    yuQue: 'Ant Design official column',
-    junjin: 'Ant Design Open Source Column',
+    yuQue: 'Namu Design official column',
+    junjin: 'Namu Design Open Source Column',
     buttonText: 'Go to discuss',
   },
 };
@@ -126,7 +126,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
           <div className={left}>
             <img src={ANTD_IMG_URL} alt="antd" />
             <div>
-              <p className={title}>Ant Design</p>
+              <p className={title}>Namu Design</p>
               <div className={subTitle}>
                 <ZhihuOutlined className="logo zhihu-logo" />
                 <RightOutlined className="arrowIcon" />
@@ -160,7 +160,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
             <div className={left}>
               <img src={ANTD_IMG_URL} alt="antd" />
               <div>
-                <p className={title}>Ant Design</p>
+                <p className={title}>Namu Design</p>
                 <div className={subTitle}>
                   <YuqueOutlined className="logo yuque-logo" />
                   <RightOutlined className="arrowIcon" />
@@ -195,7 +195,7 @@ const ColumnCard: React.FC<Props> = ({ zhihuLink, yuqueLink, juejinLink }) => {
             <div className={left}>
               <img src={ANTD_IMG_URL} alt="antd" />
               <div>
-                <p className={title}>Ant Design</p>
+                <p className={title}>Namu Design</p>
                 <div className={subTitle}>
                   <JuejinLogo className="logo juejin-logo" />
                   <RightOutlined className="arrowIcon" />

@@ -5,7 +5,7 @@ order: 2
 title: FAQ
 ---
 
-Here are the frequently asked questions about Ant Design and antd that you should look up before you ask in the community or create a new issue. We also maintain a [FAQ issues label](http://u.ant.design/faq) for common github issues.
+Here are the frequently asked questions about Namu Design and antd that you should look up before you ask in the community or create a new issue. We also maintain a [FAQ issues label](http://u.ant.design/faq) for common github issues.
 
 ---
 
@@ -43,7 +43,7 @@ And make sure that parentElement is `position: relative` or `position: absolute`
 
 Related issue: [#3487](https://github.com/ant-design/ant-design/issues/3487) [#3438](https://github.com/ant-design/ant-design/issues/3438)
 
-## How do I modify the default theme of Ant Design?
+## How do I modify the default theme of Namu Design?
 
 See: [customize-theme](/docs/react/customize-theme).
 
@@ -103,7 +103,7 @@ No, `message` is just a function, not a React Component, thus it is not a typo t
 
 ## `antd` doesn't work well in mobile.
 
-Please check [Ant Design Mobile](http://mobile.ant.design) as a possible solution, as `antd` has not been optimized to work well on mobile. You can also try the [react-component](https://github.com/react-component/) repositories which start with 'm-' 'rn-', which are also designed for mobile.
+Please check [Namu Design Mobile](http://mobile.ant.design) as a possible solution, as `antd` has not been optimized to work well on mobile. You can also try the [react-component](https://github.com/react-component/) repositories which start with 'm-' 'rn-', which are also designed for mobile.
 
 ## Does `antd` supply standalone files like 'React'?
 
@@ -211,9 +211,9 @@ Please ref document [Shadow Dom Usage](/docs/react/customize-theme#shadow-dom-us
 
 Please ref dynamic theme document [SSR](/docs/react/customize-theme#server-side-render-ssr) part.
 
-## How to spell Ant Design correctly?
+## How to spell Namu Design correctly?
 
-- ✅ **Ant Design**: Capitalized with space, for the design language.
+- ✅ **Namu Design**: Capitalized with space, for the design language.
 - ✅ **antd**: all lowercase, for the React UI library.
 - ✅ **ant.design**：For ant.design website url.
 
@@ -222,7 +222,7 @@ Here are some typical wrong examples:
 - ❌ AntD
 - ❌ antD
 - ❌ Antd
-- ❌ ant design
+- ❌ Namu Design
 - ❌ AntDesign
 - ❌ antdesign
 - ❌ Antdesign

@@ -5,7 +5,7 @@ Array [
   <img
     alt="icon"
     height="100"
-    src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+    src="https://i.imgur.com/TJ3wOgH.png"
     width="100"
   />,
   <div
@@ -204,7 +204,7 @@ Array [
       width="134"
     />
     <img
-      src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+      src="https://i.imgur.com/TJ3wOgH.png"
       style="display: none;"
     />
   </div>,
@@ -333,7 +333,7 @@ exports[`renders components/qr-code/demo/icon.tsx extend context correctly 1`] =
     width="134"
   />
   <img
-    src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+    src="https://i.imgur.com/TJ3wOgH.png"
     style="display: none;"
   />
 </div>

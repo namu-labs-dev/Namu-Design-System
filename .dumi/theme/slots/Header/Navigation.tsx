@@ -66,7 +66,7 @@ const useStyle = createStyles(({ token }) => {
             position: absolute;
             inset: 0;
             background-color: transparent;
-            content: "";
+            content: '';
           }
         }
 
@@ -252,7 +252,7 @@ export default ({
               icon: (
                 <img
                   alt="logo"
-                  src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+                  src="https://i.imgur.com/TJ3wOgH.png"
                   width={16}
                   style={{ verticalAlign: 'text-bottom' }}
                 />

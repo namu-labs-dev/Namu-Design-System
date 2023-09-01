@@ -8,7 +8,7 @@ As we all know, antd v5 uses CSS-in-JS to support the needs of mixed and dynamic
 
 ## Where is the dynamic style?
 
-If you have checked the official website of Ant Design, you will find that Ant Design's components do not dynamically insert `<style />` to control styles, but use CSS files to control styles:
+If you have checked the official website of Namu Design, you will find that Namu Design's components do not dynamically insert `<style />` to control styles, but use CSS files to control styles:
 
 - <img width="376" alt="button" src="https://github.com/ant-design/ant-design/assets/5378891/82fc5e7a-8d68-4c37-b892-e75097f80ff8" />
 - <img width="480" alt="style" src="https://github.com/ant-design/ant-design/assets/5378891/ab31820e-6602-4421-9101-50cb70738058" />
@@ -34,7 +34,7 @@ You can find that although the `<style />` node can be omitted, hash still deps 
 
 ## Component-level CSS-in-JS
 
-In the [component-level CSS-in-JS](/docs/blog/css-in-js) article, we mentioned that Ant Design's Cache mechanism does not need to calculate the complete style. For the component library, as long as the Token and ComponentName can determine the consistency of the generated style, so we can calculate the hash value in advance:
+In the [component-level CSS-in-JS](/docs/blog/css-in-js) article, we mentioned that Namu Design's Cache mechanism does not need to calculate the complete style. For the component library, as long as the Token and ComponentName can determine the consistency of the generated style, so we can calculate the hash value in advance:
 
 ![Component CSS-in-JS](https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*yZMNSYVtxnAAAAAAAAAAAAAADrJ8AQ/original)
 
@@ -119,4 +119,4 @@ And for the style provided by CSS file (such as the usage of the official websit
 
 ## Summary
 
-CSS-in-JS has been criticized for its runtime performance loss. In Ant Design, if your application uses SSR, you can skip the stage of generating styles at runtime on the client side to improve performance. Of course, we will continue to follow up the development of CSS-in-JS to bring you a better experience.
+CSS-in-JS has been criticized for its runtime performance loss. In Namu Design, if your application uses SSR, you can skip the stage of generating styles at runtime on the client side to improve performance. Of course, we will continue to follow up the development of CSS-in-JS to bring you a better experience.

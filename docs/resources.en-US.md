@@ -1,13 +1,13 @@
 ---
 order: 1
 title: Resources
-description: List all the resources that are related with Ant Design here.
+description: List all the resources that are related with Namu Design here.
 toc: false
 ---
 
 ## Design Resources
 
-Please find below some of the design resources and tools about Ant Design that we consider valuable. More of this is still being collected. You can leave feedback about Sketch Symbols [here](https://www.yuque.com/kitchen/topics/216).
+Please find below some of the design resources and tools about Namu Design that we consider valuable. More of this is still being collected. You can leave feedback about Sketch Symbols [here](https://www.yuque.com/kitchen/topics/216).
 
 <div class="next-block-use-cards"></div>
 
@@ -22,7 +22,7 @@ Please find below some of the design resources and tools about Ant Design that w
   - Sketch Symbols File for Mobile
   - https://gw.alipayobjects.com/os/bmw-prod/d6266aef-25b7-4892-b275-ce214121831c.sketch
   - Official
-- Ant Design Pro
+- Namu Design Pro
   - https://gw.alipayobjects.com/zos/basement_prod/5edc7f4d-3302-4710-963b-7b6c77ea8d06.svg
   - Common Templates and Pages
   - https://gw.alipayobjects.com/os/bmw-prod/22208f9d-f8c5-4d7c-b87a-fec290e96527.sketch
@@ -32,12 +32,12 @@ Please find below some of the design resources and tools about Ant Design that w
   - A Sketch plugin collection
   - http://kitchen.alipay.com
   - Official
-- Ant Design Landing
+- Namu Design Landing
   - https://gw.alipayobjects.com/zos/basement_prod/b443f4be-5116-49b7-873f-a7c8502b8f0e.svg
   - Landing Templates
   - https://landing.ant.design/docs/download-cn
   - Official
-- Ant Design Prototype (xiaopiu)
+- Namu Design Prototype (xiaopiu)
   - https://gw.alipayobjects.com/zos/basement_prod/77e6a9ae-24a9-4be6-be42-f7fa8ee0eecf.svg
   - Online library and prototype
   - https://www.xiaopiu.com/topic/ant-design
@@ -57,7 +57,7 @@ Please find below some of the design resources and tools about Ant Design that w
   - https://github.com/ant-design/ant-design/assets/507615/45201521-37d0-4360-b81e-a1260dedad7a
   - Figma Plugin,Design using Antd code component library and deliver component code that is friendly to developers
   - https://www.figma.com/community/plugin/1192146318523533547
-- Ant Design Chart
+- Namu Design Chart
   - https://gw.alipayobjects.com/zos/basement_prod/a9dc586a-fe0a-4c7d-ab4f-f5ed779b963d.svg
   - Sketch Symbols for Chart
   - https://gw.alipayobjects.com/os/bmw-prod/704968a5-2641-484e-9f65-c2735b2c0287.sketch
@@ -82,7 +82,7 @@ Please find below some of the design resources and tools about Ant Design that w
 
 ## Articles
 
-Do you want to know the story behind the Ant Design design system? How can I better apply Ant Design? You can check out our well selected articles below. Also welcome to follow [Ant Design Official Column](https://www.zhihu.com/column/c_1310524851418480640). There are often the latest sharing and discussions on related topics under the Ant Design design system, such as Ant Design, AntV visualization, Kitchen design Plug-ins, B-side product design, SaaS product design, natural interaction, growth design, intelligent design, design engineering, etc.
+Do you want to know the story behind the Namu Design design system? How can I better apply Namu Design? You can check out our well selected articles below. Also welcome to follow [Namu Design Official Column](https://www.zhihu.com/column/c_1310524851418480640). There are often the latest sharing and discussions on related topics under the Namu Design design system, such as Namu Design, AntV visualization, Kitchen design Plug-ins, B-side product design, SaaS product design, natural interaction, growth design, intelligent design, design engineering, etc.
 
 <ResourceArticles></ResourceArticles>
 

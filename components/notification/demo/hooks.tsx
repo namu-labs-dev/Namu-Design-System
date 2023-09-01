@@ -21,7 +21,7 @@ const App: React.FC = () => {
     });
   };
 
-  const contextValue = useMemo(() => ({ name: 'Ant Design' }), []);
+  const contextValue = useMemo(() => ({ name: 'Namu Design' }), []);
 
   return (
     <Context.Provider value={contextValue}>

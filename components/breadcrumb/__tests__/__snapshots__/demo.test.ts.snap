@@ -280,7 +280,7 @@ exports[`renders components/breadcrumb/demo/overlay.tsx correctly 1`] = `
       <span
         class="ant-breadcrumb-link"
       >
-        Ant Design
+        Namu Design
       </span>
     </li>
     <li

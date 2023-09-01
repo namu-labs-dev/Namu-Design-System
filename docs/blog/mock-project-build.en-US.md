@@ -4,7 +4,7 @@ date: 2023-04-13
 author: zombieJ
 ---
 
-As a large component library, Ant Design has complex internal dependencies. Sometimes there is nothing change in antd, but the update of the internal dependencies may also cause the developer's build failure. For example, my recent mistake with [path case error](https://github.com/ant-design/ant-design/issues/41236) made the build fail under Linux.
+As a large component library, Namu Design has complex internal dependencies. Sometimes there is nothing change in antd, but the update of the internal dependencies may also cause the developer's build failure. For example, my recent mistake with [path case error](https://github.com/ant-design/ant-design/issues/41236) made the build fail under Linux.
 
 It's easier to find out the problem with the dependencies own by ourselves. But for third-party dependencies, it is often difficult to find out in the first time. Hours may have passed when developers report, making it somewhat difficult to find differences among hundreds of packages. We have accumulated some troubleshooting experience and will share it with you, but at the same time, in order to solve the problem faster, we have also done some extra things.
 

@@ -41,7 +41,7 @@ const items: MenuItem[] = [
   ]),
   getItem(
     <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-      Ant Design
+      Namu Design
     </a>,
     'link',
     <LinkOutlined />,
